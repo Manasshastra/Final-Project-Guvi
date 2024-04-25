@@ -1,0 +1,62 @@
+Title: Loan Status Prediction
+
+Performance Analysis
+
+Overview:
+This document presents the performance analysis of classification models trained on a Property Loan Status Prediction dataset. The objective was to predict whether a loan application would be approved or rejected based on applicant and property metrics.
+
+Steps :
+1. Data Preprocessing
+
+2. Exploratory Data Analysis (EDA)
+
+3. Model Selection and Training
+
+4. Model Evaluation
+
+5. Advanced Model Evaluation  
+
+6. Feature Importance Assessment
+
+#### Performance Results:
+| Model          | Average CV Score | Accuracy |
+|----------------|------------------|----------|
+| Decision Tree  | 0.7836           | 0.78     |
+| Random Forest  | 0.7819           | 0.78     |
+| XGBoost        | 0.7607           | 0.77     |
+
+Insights:
+- The above chart shows that Decision Tree performs better in predicting the outcome of an loan application by having the highest Average cross-validation. 
+- Here, Decision tree and random forest perform similar but decision tree being marginally higher.
+- XGboost also is good at predicting results but slightly lower in comparison to other too..
+
+#### Conclusion:
+Based on the performance analysis, the Decision Tree is recommended.
+
+---
+
+Insights on the Data:
+
+Overview:
+This document highlights key insights and observations derived from analyzing the Property Loan Status Prediction dataset.
+
+Dataset Description:
+- The dataset contains data on loan applicants and property metrics.
+- The target variable is "Loan_Status," indicating whether a loan application was approved or denied.
+
+Key Insights:
+1. Credit History Plays a Crucial Role
+   - Positive credit history is linked with likely approval of loan. 
+2. Income Levels Impact Loan Approval
+   - Income is linked with the approval of loans, positively correlated.
+3. Loan Amount and Term Influence Decisions
+   - Short terms and moderate loan amounts are seen to be favourable.
+4. Data Imbalance May Affect Model Performance
+   - The dataset may suffer from class imbalance, potentially affecting model performance, especially for Decision Tree and XGBoost models.
+
+Recommendations
+- Data balancing techniques and feature engineering needs further exploration in order to make the model perform better.
+- Updating the data with new and upcoming trends to make the model upto date.
+
+ Conclusion:
+The analysis gives useful insights into the elements that influence loan approval decisions, as well as topics for additional research and model performance improvement. The Random Forest model, with its higher performance, is ideal for use in forecasting loan approvals.

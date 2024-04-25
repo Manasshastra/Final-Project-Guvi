@@ -1,0 +1,25 @@
+Title: Credit Card Customer Segmentation
+
+Introduction:
+In this project, we aim to segment credit card customers based on their spending behavior. Customer segmentation is a crucial task in marketing and customer relationship management, as it helps businesses tailor their products and services to specific customer groups.
+
+Dataset:
+We used a dataset containing information about credit card customers, including their balances, purchase behavior, credit limits, and more. The dataset consists of 8950 entries and 18 features.
+
+- STEPS:
+1. Data Preprocessing
+
+2. Exploratory Data Analysis (EDA)
+
+3. Dimensionality Reduction
+
+4. Clustering
+
+Evaluation:
+1. Evaluated the quality of the clusters using silhouette score and Davies-Bouldin index.
+2. Interpreted the silhouette score and Davies-Bouldin index to assess the effectiveness of the clustering algorithm.
+
+Conclusion:
+Finally, the clustering technique identified unique groupings of credit card clients based on their spending habits. The discovered clusters can assist organizations in personalizing their marketing tactics and tailoring their services to better fit the demands of various client segments.
+
+This comprehensive documentation serves as a reference for stakeholders and provides insights for future analysis and decision-making.
